@@ -1,0 +1,12 @@
+<div class="sections">
+    {% for section in site.sections %}
+    <div class="section">
+        <h2>
+            {{ section.title }}
+        </h2>
+        <p>
+            {{ section.description }}
+        </p>
+    </div>
+    {% endfor %}
+</div>

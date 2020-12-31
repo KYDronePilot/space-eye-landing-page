@@ -5,61 +5,78 @@ include_in_header: true
 ---
 
 # Changelog
-Here you can keep a changelog for your app. Edit the markdown based CHANGELOG.md which is located in the _pages directory. The changelog below is simply an example changelog that serves to exemplify how the markdown can be used. You can be as creative as you want with the markdown.
 
-<br>
+## [1.1.2]
 
-### `Latest`
-# **Version 2.0**
-This is the first update to our app. Jeez **goodness** by kept more sensually a much far proper exotically precise [here is a link](https://www.google.com) and and illicit hey uninspiring the more sat honey knelt before before bearish bowed lorikeet wolf grandly instead diligently and rhinoceros imperative.
+### Fixed
 
-#### What's New
-- Much far proper exotically precise unaccountable.
-- [Changes to Privacy Policy](/privacypolicy)
+- CI bug that crashed anyone who installed release 1.1.1.
 
-#### Bug Fixes
-- Much far proper exotically precise unaccountable.
-- [Changes to Privacy Policy](/privacypolicy)
+## [1.1.1]
 
-<br>
+### Fixed
 
-### **Version 2.1**
-Abnormal and formidable against much the before well improper more spent far heron amicably iguana plainly swanky upon mammoth **much paid darn some tapir** some glared save crud more regarding one accommodating gosh cannily and on hungry a more goodness inside merry yikes wedded versus because some a a a shined anteater goldfinch jeez up so and this this a.
+- Mac toolbar icons weren't being treated as template images, causing them to
+  look invisible when in light mode.
 
-#### What's New
-- Much far proper exotically precise unaccountable.
-- Much far proper exotically precise unaccountable.
+## [1.1.0]
 
-<br>
+### Added
 
-________
-<br>
+- Onboarding steps for new users, to explain how the app works and to prompt for
+  basic settings options.
 
-### `Initial Release`
-# **Version 1.0**
-Cracked a more and iguana a without some echidna a abnormal hello and beat thanks jeepers gnu jeepers until up depending for drooled awfully angelfish relentless much a well wasp some in impala darn and overate greedily wow kookaburra beneath much wistful fluid until and lemming less armadillo redoubtable after much capybara wow that hence interbred timorous loosely oh divisively wherever because jeepers until since as that goodness roadrunner insanely belated physic jeepers hey jeepers much the beside steadfastly up toward indubitably this goodness playful.
+### Fixed
 
-<br>
+- Periodic background updates were taking longer than they should have.
+- Bug that would have allowed MAS and Windows Store builds to try auto updating.
 
-## **Version 1.1**
-Abnormal and formidable against much the before well improper more spent far heron amicably iguana plainly swanky upon mammoth **much paid darn some tapir** some glared save crud more regarding one accommodating gosh cannily and on hungry a more goodness inside merry yikes wedded versus because some a a a shined anteater goldfinch jeez up so and this this a.
+## [1.0.0]
 
-#### What's New
-- Much far proper exotically precise unaccountable.
-- Much far proper exotically precise unaccountable.
+### Added
 
-<br>
+- Option to enabled/disable start on login.
+- Onboarding info for Windows users.
+- Full-auto update option for GitHub Releases builds.
+- App icons.
+- Progress bar when downloading new satellite images.
 
-## Version 1.0.1
-That wow robin one and gosh audibly darn that variously less across softly awakened under affectingly wildebeest from jeepers far contemplated and indisputably clung jeepers much mistaken some after mumbled hey certain neatly far alas more trod the swelled rolled permissively so save pert the tapir paradoxical off so then juggled crud a however overslept vehemently kept indisputably anteater walked alas or into.
+### Changed
 
-#### What's New
-- Much far proper exotically precise unaccountable.
-- Much far proper exotically precise unaccountable.
-- Much far proper exotically precise unaccountable.
+- Window is no longer draggable.
+- Improved look of settings page.
+- Don't update image if screen is locked.
+- Update the image on app start.
+- Removed dependencies that were not needed.
+- Added "About" section in settings with open source license info.
+- Increased redundancy when making web requests.
+- Better overall error handling when making web requests.
+- Improved response time when viewing window right after launching.
 
-#### Bug Fixes
-- Improved user sign up experience.
-- Unlike deliberately zebra hen oh jeez understandable. Alas and quit oh snooty unlike deliberately.
+### Fixed
 
-<br>
+- Optimal image size for all monitors will now be downloaded, instead of just
+  the largest.
+- Fixed security vulnerabilities.
+- Ensure only one instance of the app is ever opened.
+- Window is now positioned correctly when Windows Toolbar is not at the bottom
+  of the screen.
+- Full disk images are no longer cut off by scaling.
+
+## [0.1.0]
+
+### Added
+
+- Auto-update functionality, using automated [GitHub
+  Releases](https://github.com/KYDronePilot/SpaceEye/releases).
+- Logging throughout the application to aid in finding and fixing errors.
+- Thumbnails now update when the app window is opened.
+- Current view is highlighted when the app is opened.
+
+### Changed
+
+- Made the window non-resizable.
+
+### Fixed
+
+- Cancelled downloads were being handled as unknown errors.
