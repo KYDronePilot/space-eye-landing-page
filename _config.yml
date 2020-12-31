@@ -49,11 +49,11 @@ features:
     description: |
       Each satellite view can be downloaded in 4K resolution (if supported by
       the monitor) for crystal clear background pictures of the Earth.
-    fontawesome_icon_name: fas fa-tv
+    fontawesome_icon_name: fas fa-image
 
   - title: Cross-platform
     description: Can be installed on both macOS and Windows.
-    fontawesome_icon_name: fas fa-laptop
+    fontawesome_icon_name: fas fa-desktop
 
   - title: Free and open source
     description: |
