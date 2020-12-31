@@ -87,7 +87,7 @@ device_color: black # Set to: blue, black, yellow, coral or white.
 
 body_background_color: "#1f1f1f"
 
-link_color: "#1d63ea"
+link_color: "#4375ca"
 
 app_title_color: "#ffffff"
 app_price_color: "#ffffff"

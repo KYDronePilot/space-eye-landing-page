@@ -8,7 +8,7 @@
         <div class="container">
           {% include header.html %}
           <div class="iphonePreview">
-            <img class="iphoneScreen hidden" src="" alt="" />
+            <img class="iphoneScreen hidden" src="" alt="App screenshot on macOS" />
 
             {% include screencontent.html %}
           </div>
@@ -28,7 +28,7 @@
                   </clipPath>
                 </defs>
               </svg>
-              <img class="appIconLarge" src="{{ site.app_icon }}" />
+              <img class="appIconLarge" src="{{ site.app_icon }}" alt="SpaceEye icon" />
             </div>
             <div class="appNamePriceContainer">
               <h1 class="appName">{{ site.app_name }}</h1>
@@ -44,10 +44,10 @@
               /></a>
               {% endif %} -->
               <a href="{{ site.appstore_link }}" class="download-link">
-                <img class="appStore" src="/assets/mas_badge_black.svg" />
+                <img class="appStore" src="/assets/mas_badge_black.svg" alt="Download on the Mac App Store" />
               </a>
               <a class="windowsStoreLink download-link" href="{{site.windows_store_link}}">
-                <img class="appStore" src="/assets/ms_badge_large.png" />
+                <img class="appStore" src="/assets/ms_badge_large.png" alt="Download from the Microsoft Store" />
               </a>
                 <a class="other-downloads-button download-link" href="{{ site.other_installation_link }}">Alternate downloads</a>
             </div>
