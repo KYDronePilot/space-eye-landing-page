@@ -628,20 +628,26 @@ footer {
     line-height: 1.5;
     width: 100%;
     text-align: left;
-    padding-top: 60px;
+    padding-top: 20px;
     padding-left: 20px;
     padding-right: 10px;
     // padding-bottom: 20px;
 }
 
-.section h2 {
+.section h2, .section h3, .section h4, .section h5 {
     color: #fff;
     font-size: 28px;
+    margin-top: 30px;
     margin-bottom: 10px;
 }
 
-.section p {
+.section p, .section li {
     color: #bdbdbd;
+}
+
+.section ul {
+    margin-left: 0;
+    padding-left: 30px;
 }
 
 .footerIcons {

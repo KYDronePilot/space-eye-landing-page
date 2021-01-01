@@ -1,11 +1,11 @@
 <div class="sections">
     {% for section in site.sections %}
     <div class="section">
-        <h2>
+        <h2 id="{{ section.title | slugify }}">
             {{ section.title }}
         </h2>
         <p>
-            {{ section.description }}
+            {{ section.description | markdownify }}
         </p>
     </div>
     {% endfor %}
