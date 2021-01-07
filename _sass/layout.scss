@@ -650,6 +650,18 @@ footer {
     padding-left: 30px;
 }
 
+@media only screen and (max-width: 768px) {
+
+    .section h2, .section h3, .section h4, .section h5 {
+        text-align: center;
+    }
+
+    .section p, .section li {
+        text-align: center;
+    }
+
+}
+
 .footerIcons {
     padding-bottom: 70px;
     display: flex;
