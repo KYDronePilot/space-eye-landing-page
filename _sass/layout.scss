@@ -427,16 +427,8 @@ nav > ul li a:active {
 @media only screen and (max-width: 443px) {
 
     .iphoneScreen {
-        width: 360px;
-        height: 408.9px;
-    }
-}
-
-@media only screen and (max-width: 350px) {
-
-    .iphoneScreen {
-        width: 300px;
-        height: 340.8px;
+        width: 93vw;
+        height: calc(1.136 * 93vw);
     }
 }
 
