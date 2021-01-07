@@ -36,7 +36,7 @@ features:
   - title: Your desktop background updates throughout the day
     description: |
       New images are downloaded every 20 minutes to 1 hour (depending on the
-      view), giving an up-to-date view of the Earth on your desktop.
+      image size), giving an up-to-date view of the Earth on your desktop.
     fontawesome_icon_name: fas fa-sync
 
   - title: 10 views from 3 satellites
