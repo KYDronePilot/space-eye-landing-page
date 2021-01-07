@@ -27,6 +27,9 @@
             {% if site.presskit_download_link %}
                 <li><a href="{{ site.presskit_download_link }}">Press Kit</a></li>
             {% endif %}
+            {% if site.repo %}
+                <li><a href="{{ site.repo.link }}">{{ site.repo.name }}</a></li>
+            {% endif %}
         </ul>
     </nav>
 </header>

@@ -31,6 +31,10 @@ email_address: kydronepilotdev@gmail.com
 github_username: KYDronePilot
 youtube_username:
 
+repo:
+  name: GitHub
+  link: https://github.com/KYDronePilot/SpaceEye
+
 # Feature List                            Edit, add or remove features to be presented.
 features:
   - title: Your desktop background updates throughout the day
