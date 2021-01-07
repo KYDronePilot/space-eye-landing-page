@@ -62,34 +62,32 @@ features:
     fontawesome_icon_name: fas fa-lock-open
 
 sections:
-  - title: Installing
+  - title: Install on Mac
     description: |
-      ### Mac
+      Download from the **Mac App Store** (US and Canada only)
 
-      <a href="https://apps.apple.com/us/app/spaceeye-satellite-wallpaper/id1539851747?mt=12&amp;itsct=apps_box&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 226px; height: 75px;"><img src="/assets/mas_badge_black.svg" alt="Download on the Mac App Store" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 226px; height: 75px;" width="226px" height="75px"></a>
+      <a href="https://apps.apple.com/us/app/spaceeye-satellite-wallpaper/id1539851747?mt=12&amp;itsct=apps_box&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 226px; height: 75px; margin-top: 8px;"><img src="/assets/mas_badge_black.svg" alt="Download on the Mac App Store" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 226px; height: 75px;" width="226px" height="75px"></a>
 
-      - Download from the **Mac App Store** by clicking the link above (US and Canada
-        only).
-      - Download from the [latest GitHub
-        release](https://github.com/KYDronePilot/SpaceEye/releases/latest)
-        (available everywhere):
-        - [SpaceEye-1.1.2.dmg](https://github.com/KYDronePilot/SpaceEye/releases/download/v1.1.2/SpaceEye-1.1.2.dmg)
-          or
-        - [SpaceEye-1.1.2-mac.zip](https://github.com/KYDronePilot/SpaceEye/releases/download/v1.1.2/SpaceEye-1.1.2-mac.zip)
+      or download from the [latest GitHub
+      release](https://github.com/KYDronePilot/SpaceEye/releases/latest)
+      (available everywhere).
 
+  - title: Install on Windows
+    description: |
+      **Recommended**: Download from the **Microsoft Store** (US and Canada
+      only)
 
-      ### Windows
+      <a href="//www.microsoft.com/store/apps/9NF3WZ8TT6MN?cid=storebadge&ocid=badge"><img src="/assets/ms_badge_large.png" alt="Download from the Microsoft Store" style="margin-top: 14px; margin-bottom: 10px;" width="174px" height="64px"/></a>
 
-      <a href="//www.microsoft.com/store/apps/9NF3WZ8TT6MN?cid=storebadge&ocid=badge"><img src="/assets/ms_badge_large.png" alt="Download from the Microsoft Store" style="margin-top: 10px; margin-bottom: 10px;" width="174px" height="64px"/></a>
+      or follow the [installation
+      instructions](https://github.com/KYDronePilot/SpaceEye/wiki/Installing-on-Windows)
+      to download and run the installer from the latest GitHub release
+      (available everywhere).
 
-      - **Recommended**: Download from the **Microsoft Store** by clicking the link
-        above (Microsoft account not needed; US and Canada only).
-      - Alternative: Follow the [installation
-        instructions](https://github.com/KYDronePilot/SpaceEye/wiki/Installing-on-Windows)
-        to download and run the installer from the latest GitHub release (available
-        everywhere).
-        - **Note**: You will have to dismiss warnings about the download being
-          potentially dangerous with this method.
+      <br>
+
+      **Note**: You will have to dismiss warnings about the download being
+      potentially dangerous with this method.
 
   - title: Acknowledgements
     description: |
