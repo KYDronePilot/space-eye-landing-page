@@ -16,7 +16,7 @@ app_name: SpaceEye
 app_price: Free
 app_description: Live satellite imagery for your Mac or Windows desktop background.
 
-other_installation_link: "#installing"
+other_installation_link: "#install-on-mac"
 
 enable_smart_app_banner: false # Set to true to show a smart app banner at top of page on mobile devices.
 
