@@ -39,20 +39,21 @@ repo:
 features:
   - title: Your desktop background updates throughout the day
     description: |
-      New images are downloaded every 20 minutes to 1 hour (depending on the
+      New images are downloaded every 10 minutes to 1 hour (depending on the
       image size), giving an up-to-date view of the Earth on your desktop.
     fontawesome_icon_name: fas fa-sync
 
-  - title: 10 views from 3 satellites
+  - title: 12 views from 5 satellites
     description: |
-      There are currently 10 views from 3 different weather satellites:
-      Himawari-8, GOES-17 (West), and GOES-16 (East).
+      There are currently 12 views from 5 different weather satellites:
+      Himawari-8, GOES-17 (West), GOES-16 (East), Meteosat-8, and Meteosat-11.
     fontawesome_icon_name: fas fa-satellite
 
   - title: High resolution imagery
     description: |
-      Each satellite view can be downloaded in 4K resolution (if supported by
-      the monitor) for crystal clear background pictures of the Earth.
+      Satellite views can be downloaded in up to 8K resolution (if supported by
+      the monitor and satellite view) for crystal clear background pictures of
+      the Earth.
     fontawesome_icon_name: fas fa-image
 
   - title: Cross-platform
