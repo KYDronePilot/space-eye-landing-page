@@ -39,8 +39,7 @@ repo:
 features:
   - title: Your desktop background updates throughout the day
     description: |
-      New images are downloaded every 10 minutes to 1 hour (depending on the
-      image size), giving an up-to-date view of the Earth on your desktop.
+      New images are downloaded every 20 minutes, giving an up-to-date view of the Earth on your desktop.
     fontawesome_icon_name: fas fa-sync
 
   - title: 12 views from 5 satellites
@@ -51,8 +50,7 @@ features:
 
   - title: High resolution imagery
     description: |
-      Satellite views can be downloaded in up to 8K resolution (if supported by
-      the monitor and satellite view) for crystal clear background pictures of
+      Satellite views are downloaded in up to 8K resolution for crystal clear views of
       the Earth.
     fontawesome_icon_name: fas fa-image
 
