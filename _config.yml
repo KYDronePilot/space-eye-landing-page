@@ -58,11 +58,11 @@ features:
     description: Can be installed on both macOS and Windows.
     fontawesome_icon_name: fas fa-desktop
 
-  - title: Free and open source
-    description: |
-      SpaceEye is 100% open source and provided free of charge. Contributions
-      are welcome!
-    fontawesome_icon_name: fas fa-lock-open
+  # - title: Free and open source
+  #   description: |
+  #     SpaceEye is 100% open source and provided free of charge. Contributions
+  #     are welcome!
+  #   fontawesome_icon_name: fas fa-lock-open
 
 sections:
   - title: Install on Mac
@@ -71,7 +71,7 @@ sections:
 
       <a href="https://apps.apple.com/app/spaceeye-satellite-wallpaper/id1539851747?mt=12&amp;itsct=apps_box&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 226px; height: 75px; margin-top: 8px;"><img src="/assets/mas_badge_black.svg" alt="Download on the Mac App Store" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 226px; height: 75px;" width="226px" height="75px"></a>
 
-      or download from the [latest GitHub release](https://github.com/KYDronePilot/SpaceEye/releases/latest).
+    # or download from the [latest GitHub release](https://github.com/KYDronePilot/SpaceEye/releases/latest).
 
   - title: Install on Windows
     description: |
