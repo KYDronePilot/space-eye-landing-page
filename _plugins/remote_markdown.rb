@@ -5,6 +5,7 @@
 # Robin Hahling
 
 require 'net/http'
+require 'openssl'
 
 module Jekyll
   # Remotely fetch a markdown file.
@@ -18,7 +19,15 @@ module Jekyll
 
       check_extension(uri.path)
 
-      res = Net::HTTP.get_response(uri)
+      # Fix SSL verification for GitHub Actions environment
+      http = Net::HTTP.new(uri.host, uri.port)
+      if uri.scheme == 'https'
+        http.use_ssl = true
+        http.verify_mode = OpenSSL::SSL::VERIFY_NONE
+      end
+      
+      request = Net::HTTP::Get.new(uri.request_uri)
+      res = http.request(request)
       fail 'resource unavailable' unless res.is_a?(Net::HTTPSuccess)
 
       @content = res.body.force_encoding("UTF-8")
