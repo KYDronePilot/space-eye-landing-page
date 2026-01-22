@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base target="_blank">
+
+    <title class="pageTitle">SpaceEye App</title>
+    <meta name="description" content="Live satellite imagery for your Mac or Windows desktop background.">
+
+    <link rel="shortcut icon" href="/assets/space_eye_icon.png">
+    <link rel="preload" as="image" href="/assets/continental_us_late_afternoon.jpg">
+    <link rel="preload" as="image" href="/assets/screenshot/macos_screenshot.png">
+    <link rel="preload" href="/assets/fontawesome/webfonts/fa-brands-400.woff2">
+    <link rel="preload" href="/assets/fontawesome/webfonts/fa-solid-900.woff2">
+
+    <!-- Smart App Banner -->
+    
+
+    <link rel="stylesheet" href="/assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="/main.css">
+</head>
+
+
+<body class="subPageBody">
+    <div class="iphone-announcement-banner">
+    <div class="banner-content">
+        <div class="banner-icon">
+            <img src="/assets/earthwatch-icon.png" alt="EarthWatch App Icon">
+        </div>
+        <div class="banner-text">
+            <h2>SpaceEye for the iPhone is HERE!</h2>
+            <p class="banner-subtext">Download EarthWatch today!</p>
+        </div>
+        <div class="banner-badge">
+            <a href="https://apps.apple.com/au/app/earthwatch/id6757124855" target="_blank">
+                <img src="/assets/download-on-the-app-store.svg" alt="Download on the App Store">
+            </a>
+        </div>
+    </div>
+</div>
+
+    <div class="headerBackground subPageHeaderBackground">
+        <div class="container subPageContainer">
+        <header>
+    <div class="logo">
+        <div class="appIconShadow">
+            <svg width="0" height="0">
+                <defs>
+                    <clipPath id="shape">
+                            <path id="shape" class="cls-1" d="M6181.23,233.709v-1.792c0-.5-0.02-1-0.02-1.523a24.257,24.257,0,0,0-.28-3.3,11.207,11.207,0,0,0-1.04-3.132,10.683,10.683,0,0,0-1.95-2.679,10.384,10.384,0,0,0-2.68-1.943,10.806,10.806,0,0,0-3.13-1.038,19.588,19.588,0,0,0-3.3-.285c-0.5-.017-1-0.017-1.52-0.017h-22.39c-0.51,0-1.01.017-1.53,0.017a24.041,24.041,0,0,0-3.3.285,11.009,11.009,0,0,0-3.13,1.038,10.491,10.491,0,0,0-4.62,4.622,10.893,10.893,0,0,0-1.04,3.132,19.2,19.2,0,0,0-.28,3.3c-0.02.5-.02,1-0.02,1.523v22.392c0,0.5.02,1,.02,1.524a24.257,24.257,0,0,0,.28,3.3,10.9,10.9,0,0,0,1.04,3.132,10.491,10.491,0,0,0,4.62,4.622,11.04,11.04,0,0,0,3.13,1.038,19.891,19.891,0,0,0,3.3.285c0.51,0.017,1.01.017,1.53,0.017h22.39c0.5,0,1-.017,1.52-0.017a24.221,24.221,0,0,0,3.3-.285,10.836,10.836,0,0,0,3.13-1.038,10.408,10.408,0,0,0,2.68-1.943,10.683,10.683,0,0,0,1.95-2.679,11.217,11.217,0,0,0,1.04-3.132,20.257,20.257,0,0,0,.28-3.3c0.02-.5.02-1,0.02-1.524v-20.6h0Z" transform="translate(-6131 -218)"/>
+                    </clipPath>
+                </defs>
+            </svg>
+            
+                <a href="../" target="_self"><img class="headerIcon" src="/assets/space_eye_icon.png" alt="SpaceEye icon"></a>
+            
+            <div class="divider"></div>
+        </div>
+        <p class="headerName">SpaceEye</p>
+    </div>
+    <nav class="scroll">
+        <ul>
+            
+                
+                <li><a href="/changelog/" target="_self">What's New</a></li>
+                
+            
+                
+            
+            
+            
+                <li><a href="https://github.com/KYDronePilot/SpaceEye">GitHub</a></li>
+            
+        </ul>
+    </nav>
+</header>
+
+            <article class="page markdown-body">
+                <h1 id="changelog">Changelog</h1>
+
+<p>All notable changes to this project will be documented in this file.</p>
+
+<p>The format is based on <a href="https://keepachangelog.com/en/1.0.0/">Keep a Changelog</a>,
+and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semantic
+Versioning</a>.</p>
+
+<h2 id="121">[1.2.1]</h2>
+
+<h3 id="added">Added</h3>
+
+<ul>
+  <li>Status icon in the top left of each thumbnail.
+    <ul>
+      <li>Clicking on the icon reveals more info about the view and its status.</li>
+    </ul>
+  </li>
+  <li>A force-reload button in the top right of a hovered thumbnail.
+    <ul>
+      <li>Forces SpaceEye to re-download the image, in case the image was corrupted.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="changes">Changes</h3>
+
+<ul>
+  <li>Only download satellite config if it changed to reduce bandwidth.</li>
+  <li>No DNS HTTP probes on certain domains to prevent new image sources from
+freezing up when downloading.</li>
+</ul>
+
+<h3 id="fixed">Fixed</h3>
+
+<ul>
+  <li>Use dark icon on light Windows taskbar.</li>
+</ul>
+
+<h2 id="112">[1.1.2]</h2>
+
+<h3 id="fixed-1">Fixed</h3>
+
+<ul>
+  <li>CI bug that crashed anyone who installed release 1.1.1.</li>
+</ul>
+
+<h2 id="111">[1.1.1]</h2>
+
+<h3 id="fixed-2">Fixed</h3>
+
+<ul>
+  <li>Mac toolbar icons weren’t being treated as template images, causing them to
+look invisible when in light mode.</li>
+</ul>
+
+<h2 id="110">[1.1.0]</h2>
+
+<h3 id="added-1">Added</h3>
+
+<ul>
+  <li>Onboarding steps for new users, to explain how the app works and to prompt for
+basic settings options.</li>
+</ul>
+
+<h3 id="fixed-3">Fixed</h3>
+
+<ul>
+  <li>Periodic background updates were taking longer than they should have.</li>
+  <li>Bug that would have allowed MAS and Windows Store builds to try auto updating.</li>
+</ul>
+
+<h2 id="100">[1.0.0]</h2>
+
+<h3 id="added-2">Added</h3>
+
+<ul>
+  <li>Option to enabled/disable start on login.</li>
+  <li>Onboarding info for Windows users.</li>
+  <li>Full-auto update option for GitHub Releases builds.</li>
+  <li>App icons.</li>
+  <li>Progress bar when downloading new satellite images.</li>
+</ul>
+
+<h3 id="changed">Changed</h3>
+
+<ul>
+  <li>Window is no longer draggable.</li>
+  <li>Improved look of settings page.</li>
+  <li>Don’t update image if screen is locked.</li>
+  <li>Update the image on app start.</li>
+  <li>Removed dependencies that were not needed.</li>
+  <li>Added “About” section in settings with open source license info.</li>
+  <li>Increased redundancy when making web requests.</li>
+  <li>Better overall error handling when making web requests.</li>
+  <li>Improved response time when viewing window right after launching.</li>
+</ul>
+
+<h3 id="fixed-4">Fixed</h3>
+
+<ul>
+  <li>Optimal image size for all monitors will now be downloaded, instead of just
+the largest.</li>
+  <li>Fixed security vulnerabilities.</li>
+  <li>Ensure only one instance of the app is ever opened.</li>
+  <li>Window is now positioned correctly when Windows Toolbar is not at the bottom
+of the screen.</li>
+  <li>Full disk images are no longer cut off by scaling.</li>
+</ul>
+
+<h2 id="010">[0.1.0]</h2>
+
+<h3 id="added-3">Added</h3>
+
+<ul>
+  <li>Auto-update functionality, using automated <a href="https://github.com/KYDronePilot/SpaceEye/releases">GitHub
+Releases</a>.</li>
+  <li>Logging throughout the application to aid in finding and fixing errors.</li>
+  <li>Thumbnails now update when the app window is opened.</li>
+  <li>Current view is highlighted when the app is opened.</li>
+</ul>
+
+<h3 id="changed-1">Changed</h3>
+
+<ul>
+  <li>Made the window non-resizable.</li>
+</ul>
+
+<h3 id="fixed-5">Fixed</h3>
+
+<ul>
+  <li>Cancelled downloads were being handled as unknown errors.</li>
+</ul>
+
+
+            </article>
+        </div>
+    </div>
+</body>
+
+</html>
